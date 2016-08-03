@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Your-Mom-App
+  host: Your-Mom-App
+  disk_quota: 1024M
+  services:
+  - Your-Mom-App-personality_insights
